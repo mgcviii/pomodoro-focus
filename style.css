@@ -11,7 +11,7 @@
 body {
     font-family: 'Arial Rounded MT Bold', sans-serif;
     font-weight: 300;
-    background-color: aquamarine;
+    margin: 0;
 }
 
 a {
@@ -37,6 +37,11 @@ textarea {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(217, 85, 80);
+    min-height: 100vh;
+    width: 100%;
+
 }
 
 /* Nav Work */
