@@ -1,1 +1,27 @@
 @import url('http://fonts.cdnfonts.com/css/arial-rounded-mt-bold');
+
+
+
+
+:root {
+    --heder-font: 'Arial Rounded MT Bold', sans-serif;
+    --text-font: 'Arial Rounded MT Bold', sans-serif;
+}
+
+body {
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--heder-font);
+}
+
+button,
+input,
+textarea {
+    font-family: var(--text-font);
+}
