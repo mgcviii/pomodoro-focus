@@ -151,3 +151,15 @@ textarea {
 .pomoText {
     font-size: 1.125em;
 }
+
+/* Pomo Task Work */
+.pomoTask {
+    margin: 20px auto 42px;
+}
+
+.taskContainer {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+    padding-bottom: 14px;
+}
