@@ -4,7 +4,7 @@
 
 
 :root {
-    --heder-font: 'Arial Rounded MT Bold', sans-serif;
+    --header-font: 'Arial Rounded MT Bold', sans-serif;
     --text-font: 'Arial Rounded MT Bold', sans-serif;
 }
 
@@ -23,7 +23,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: var(--heder-font);
+    font-family: var(--header-font);
 }
 
 button,
@@ -41,7 +41,6 @@ textarea {
     background-color: rgb(217, 85, 80);
     min-height: 100vh;
     width: 100%;
-
 }
 
 /* Nav Work */
@@ -73,7 +72,7 @@ textarea {
     background: none rgba(255, 255, 255, 0.2);
     box-shadow: none;
     margin-left: 10px;
-    font-size: 13px;
+    font-size: .8em;
     padding: 8px 12px;
     min-width: 70px;
     border: none;
@@ -82,5 +81,63 @@ textarea {
 
 #navH1 #h1logo {
     color: white !important;
-    font-size: 21px;
+    font-size: 1.3em;
+}
+
+/* Pomodoro Work */
+
+.pomoContainer {
+    padding: 20px 12px 30px;
+    max-width: 620px;
+    text-align: center;
+    color: white !important;
+    margin-bottom: 20px;
+}
+
+.clockContainer {
+    padding: 20px 12px 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    max-width: 620px;
+    color: white !important;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.clockNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25em;
+}
+
+.clockNav button {
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    font-size: 1em;
+    padding: 2px 12px;
+    height: 28px;
+    border-radius: 4px;
+}
+
+.clockTimer {
+    font-size: 7.5em;
+    padding: 2px 12px;
+    ;
+}
+
+.startBtn {
+    cursor: pointer;
+    border: none;
+    margin: 20px 0px 0px;
+    padding: 0px 12px;
+    border-radius: 4px;
+    box-shadow: rgb(235 235 235) 0px 6px 0px;
+    font-family: var(--heder-font);
+    font-size: 22px;
+    height: 55px;
+    color: rgb(217, 85, 80);
+    width: 200px;
+    background-color: white;
 }
