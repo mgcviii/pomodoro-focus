@@ -11,6 +11,12 @@
 body {
     font-family: 'Arial Rounded MT Bold', sans-serif;
     font-weight: 300;
+    background-color: aquamarine;
+}
+
+a {
+    text-decoration: none !important;
+    font-weight: bold;
 }
 
 h1,
@@ -24,4 +30,52 @@ button,
 input,
 textarea {
     font-family: var(--text-font);
+}
+
+.heroContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Nav Work */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 620px;
+}
+
+.pomoLogo {
+    max-width: 5%;
+}
+
+.navBtn {
+    display: flex;
+    align-items: center;
+}
+
+#reportBtn,
+#settingsBtn,
+#loginBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.9;
+    background: none rgba(255, 255, 255, 0.2);
+    box-shadow: none;
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 8px 12px;
+    min-width: 70px;
+    border: none;
+    color: white;
+}
+
+#navH1 #h1logo {
+    color: white !important;
+    font-size: 21px;
 }
