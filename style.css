@@ -141,3 +141,13 @@ textarea {
     width: 200px;
     background-color: white;
 }
+
+.pomoCounter {
+    opacity: 60%;
+    font-weight: 100;
+    margin-bottom: 4px;
+}
+
+.pomoText {
+    font-size: 1.125em;
+}
