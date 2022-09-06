@@ -178,3 +178,29 @@ textarea {
     color: white !important;
     cursor: pointer;
 }
+
+/* Copy Work */
+.copycontainer {
+    max-width: 620px;
+    margin: auto;
+    padding: 0 12px;
+}
+
+.copyh1 {
+    font-size: 2.125;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: hsl(357, 50%, 22%);
+}
+
+.copyHeader {
+    color: hsl(357, 50%, 22%);
+    margin-top: 1.8rem;
+    margin-bottom: 0em;
+}
+
+p {
+    font-size: 1.125em;
+    line-height: 1.6em;
+    color: hsl(357, 12%, 42%);
+}
